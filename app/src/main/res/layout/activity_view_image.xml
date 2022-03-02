@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".view.display.ViewImageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/btn_back_view_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="@android:color/transparent"
+                app:tint="@color/white"
+                />
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="Profile Photo"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageButton
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/btn_edit_view_image_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_edit_24"
+                android:background="@android:color/transparent"
+                app:tint="@color/white"
+                />
+
+            <ImageButton
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/btn_share_view_image_activity"
+                android:layout_marginRight="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_share_24"
+                android:background="@android:color/transparent"
+                app:tint="@color/white"
+                />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="image"
+        android:src="@drawable/img"
+        android:id="@+id/viewprofileactivityimage"
+        android:scaleType="fitCenter"
+        />
+
+</LinearLayout>
