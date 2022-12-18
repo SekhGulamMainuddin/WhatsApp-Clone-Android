@@ -1,4 +1,19 @@
-# WhatsApp-Clone!
+# WhatsApp-Clone-Android!
+
+  <p><br></p>
+  
+  <h3 align="left">Languages and Tools Used:</h3>
+
+<p> 
+  <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="75" height="75"/> </a>
+   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="75" height="75"/> </a>
+  <a href="https://www.w3schools.com/xml/" target="_blank" rel="noreferrer"> <img src="https://cdn-icons-png.flaticon.com/128/136/136526.png" alt="XML" width="75" height="75"/> </a>
+  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="75" height="75"/> </a> 
+</p>
+  
+  <p><br></p>
+  
+# Screenshots
 
 <p float="center">
 
