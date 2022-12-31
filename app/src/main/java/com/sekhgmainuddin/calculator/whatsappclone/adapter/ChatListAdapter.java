@@ -43,7 +43,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.ViewHo
         holder.tv_username.setText(chatlist.getUserName());
         holder.tv_date.setText(chatlist.getDate());
         holder.tv_desc.setText(chatlist.getDescription());
-        if(chatlist.getUrlProfile().isEmpty()){
+        if(chatlist.getUrlProfile()==null || chatlist.getUrlProfile().isEmpty()){
             Glide.with(context).load(R.drawable.img).into(holder.imageView);
         }
         else{

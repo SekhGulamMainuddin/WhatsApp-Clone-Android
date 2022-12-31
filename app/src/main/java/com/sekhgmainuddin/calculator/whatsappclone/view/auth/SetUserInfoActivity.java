@@ -32,6 +32,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+import com.google.firebase.BuildConfig;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
@@ -46,7 +47,6 @@ import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.sekhgmainuddin.calculator.whatsappclone.BuildConfig;
 import com.sekhgmainuddin.calculator.whatsappclone.R;
 import com.sekhgmainuddin.calculator.whatsappclone.databinding.ActivitySetUserInfoBinding;
 import com.sekhgmainuddin.calculator.whatsappclone.models.user.Users;
@@ -225,8 +225,6 @@ public class SetUserInfoActivity extends AppCompatActivity {
         }else{
             openCamera();
         }
-
-
     }
 
     private void openCamera() {
