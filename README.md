@@ -1,5 +1,7 @@
 # WhatsApp-Clone-Android!
 
+Similar Project Using Flutter - [https://github.com/SekhGulamMainuddin/WhatsAppCloneFlutter](https://github.com/SekhGulamMainuddin/WhatsAppCloneFlutter)
+
   <p><br></p>
   
   <h3 align="left">Languages and Tools Used:</h3>
