@@ -1,5 +1,7 @@
 # WhatsApp-Clone-Android!
 
+This is my first Android Project - Mar 2, 2022
+
 Similar Project Using Flutter - [https://github.com/SekhGulamMainuddin/WhatsAppCloneFlutter](https://github.com/SekhGulamMainuddin/WhatsAppCloneFlutter)
 
   <p><br></p>
